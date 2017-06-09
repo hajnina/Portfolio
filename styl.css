@@ -1,0 +1,109 @@
+body{
+    font-family: 'Abril Fatface', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    text-align: justify;
+    margin: 15vh;
+    font-family: "arial";
+    font-size: 200%;
+}
+
+.cover{
+    background-image: url("background2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    //background-size: cover;
+    //font-family: "Arial";
+    //font-variant: small-caps;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+.coverText{
+    //line-height: 25vh;
+    margin: 0;
+    padding: 0;
+    font-size: 6vh;
+    overflow: hidden;
+    height: 100%;
+    letter-spacing: 50%;
+    margin: auto;
+    text-align:center;
+    margin: auto;
+}
+
+.ramecek{
+  margin: auto;
+  color: white;
+  text-align: center;
+  background-color: rgba(0,0,0,0.5);
+  border-style: solid;
+  border-width: 2px;
+  padding: 1vh;
+}
+
+.aboutMe{
+    background-color: white;
+    //display: inline-flex;
+}
+
+section h1{
+    padding: 5vh;
+    text-align: center;
+    font-size: 10vh;
+}
+
+.sideBySide{
+    display: inline-flex;
+    //height: 33vh;
+}
+
+.fiddlebox{
+    height: 70vh;
+    background-color: #232323;
+}
+
+.fiddlebox h1{
+    //position: relative;
+    //left: 50vw;
+    //top: 35vh;
+    color: mintcream;
+    margin: 0 auto;
+    padding: 0;
+    transform: translateY(35vh);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.fiddlebox span{
+    display: inline-block;
+    //color: transparent;
+    color: white;
+    //  padding: 25px;
+    font-size: 200%;
+    transition: all 0.1s ease-in-out;
+}
+
+.fiddlebox span:hover{
+    color: mintcream;
+}
+
+.photoBackground{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    width: 70vw;
+    //margin: 10vh;
+    flex-grow: 3;
+}
+
+#portrait{
+    background-image: url("background.jpg");
+}
