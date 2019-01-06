@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+body {
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#landing {
+  height: 100vh;
+}
+
+#landing h1 {
+  margin: 0;
+  padding: 0;
+  font-weight: 100;
+  font-size: 5vw;
+  line-height: 200%;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.qa {
+  height: 50vh;
+}
+
+.qa .q {
+  position: absolute;
+  left: 0;
+  width: 50vw;
+}
+
+.qa .q h1 {
+  width: 100%;
+  text-align: left;
+  margin: 10%;
+  font-weight: 100;
+  font-size: 2vw;
+}
+
+.qa .a {
+  position: absolute;
+  right: 0;
+  width: 50vw;
+}
+
+.qa .a p {
+  margin: 10%;
+  text-align: justify;
+  font-size: 1.5vw;
+  line-height: 130%;
+}
+/*# sourceMappingURL=style.css.map */
