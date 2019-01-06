@@ -96,17 +96,19 @@
 						</header>
 						<div class="content">
 							<p>Máte nápad na nový projekt? Potřebujete oprášit starší web? Chcete lépe využít sociálních sítí? Napište mi! Rád se vám ozvu!</p>
-							<form>
+							<form action="https://marcat.cz/mailapi" method="POST">
 								<div class="fields">
 									<div class="field half">
-										<input type="text" name="name" id="name" placeholder="Jméno" />
+										<input type="text" name="header" id="name" placeholder="Jméno" />
 									</div>
 									<div class="field half">
-										<input type="email" name="email" id="email" placeholder="Email" />
+										<input type="email" name="from" id="email" placeholder="Email" />
 									</div>
 									<div class="field">
-										<textarea name="message" id="message" placeholder="Zpráva" rows="7"></textarea>
+										<textarea name="message" id="body" placeholder="Zpráva" rows="7"></textarea>
 									</div>
+									<input type="hidden" name="to" value="me@martinhajny.me">
+									<input type="hidden" name="redirect" value="martinhajny.me">
 								</div>
 								<ul class="actions">
 									<li><input type="submit" value="Odeslat" class="button primary" /></li>
@@ -126,10 +128,10 @@
 								<li>
 									<h3>Jsem online</h3>
 									<ul class="icons">
-										<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-										<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-										<li><a href="#" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
-										<li><a href="#" class="icon fa-github"><span class="label">GitHub</span></a></li>
+										<li><a href="https://www.facebook.com/martinovy.weby" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+										<li><a href="https://www.instagram.com/martinovy_weby/" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+										<li><a href="https://www.linkedin.com/in/martin-hajn%C3%BD-56347b127/" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+										<li><a href="https://github.com/hajnina/" class="icon fa-github"><span class="label">GitHub</span></a></li>
 									</ul>
 								</li>
 							</ul>
