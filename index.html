@@ -99,13 +99,13 @@
 							<form action="http://marcat.cz/mailapi/index.php" method="POST">
 								<div class="fields">
 									<div class="field half">
-										<input type="text" name="header" id="name" placeholder="Jméno" />
+										<input type="text" name="header" id="name" placeholder="Jméno" data-hj-whitelist />
 									</div>
 									<div class="field half">
-										<input type="email" name="from" id="email" placeholder="Email" />
+										<input type="email" name="from" id="email" placeholder="Email" data-hj-whitelist />
 									</div>
 									<div class="field">
-										<textarea name="body" id="message" placeholder="Zpráva" rows="7"></textarea>
+										<textarea name="body" id="message" placeholder="Zpráva" rows="7" data-hj-whitelist></textarea>
 									</div>
 									<input type="hidden" name="to" value="me@martinhajny.me">
 									<input type="hidden" name="redirect" value="https://martinhajny.me">
